@@ -1,17 +1,25 @@
 # Plymouth EndeavourOS Spinner Theme
+
 Simple Plymouth Theme based on the spinner theme included in the
 Plymouth package just to change the watermark to the EndeavourOS Logo.
 
-# Information
-The script assumes that you are using Archlinux or any system that uses
-the package management program pacman.
+![theme-preview.jpg](theme-preview.jpg)
 
-# How to install it?
-1- Download the file Spinner - EndeavourOS.zip file included
-in Releases.
+## How to install it?
 
-2- Extract the .zip file, a .tar file and a .sh file should be present.
+1- Clone the repo with
 
-3- Execute the script included in the .zip file with root permissions.
+```shell
+git clone https://github.com/iWisp360/plymouth-eos-spinner-bgrt
+```
 
-4- Enjoy!
+2- Execute the python script in the cloned repo with root permissions.
+
+```shell
+cd plymouth-eos-spinner-bgrt
+
+sudo python plymouth-eos-spinner.py
+```
+
+3- Configure plymouth to run at early boot following the guide at [EndeavourOS forum](https://forum.endeavouros.com/t/guide-how-to-install-and-use-plymouth/51363)
+
