@@ -13,9 +13,6 @@ with open(os_release_path) as stream:
     os_release = dict(reader)
     os_name = os_release["NAME"]
 
-if os_name != "EndeavourOS" or os_name != "Archlinux":
-    print("OS is not EndeavourOS or Archlinux, script may not work as intended...\n")
-
 dracut_dir = "/bin/dracut"
 mkinitcpio_dir = "/bin/mkinitcpio"
 endeavouros_regen_init_command = "/bin/dracut-rebuild"
