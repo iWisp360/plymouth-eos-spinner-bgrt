@@ -21,5 +21,5 @@ cd plymouth-eos-spinner-bgrt
 sudo python plymouth-eos-spinner.py
 ```
 
-3- Configure plymouth to run at early boot following the guide at [EndeavourOS forum](https://forum.endeavouros.com/t/guide-how-to-install-and-use-plymouth/51363)
+3- Configure plymouth to run at early boot following the guide at [EndeavourOS forum](https://forum.endeavouros.com/t/guide-how-to-install-and-use-plymouth/51363) or [ArchWiki](https://wiki.archlinux.org/title/Plymouth)
 
